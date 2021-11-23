@@ -1,6 +1,6 @@
 #!/bin/bash
 # sudo chmod 755 update-script.sh
 
-URL=''
+URL='https://github.com/larsnordstrom/Rpi-scripts.git'
 
 git pull $URL

@@ -13,6 +13,8 @@ sudo mv wordpress/* .
 
 sudo rm -rf wordpress latest.tar.gz
 
-sudo chown -R $USER:www-data /var/www/html
+# Permissions
+source set-permissions.sh
 
-sudo chmod -R 775 /var/www/html
+# Lägger till så uppdateringar fungerar i wordpress.
+echo 'define( 'FS_METHOD', 'direct' );' | sudo tee -a /var/www/html/wp-config.php

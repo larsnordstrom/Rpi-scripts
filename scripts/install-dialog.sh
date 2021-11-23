@@ -1,6 +1,9 @@
 #!/bin/bash
 # sudo chmod 755 install-dialog.sh
-sudo apt-get update && sudo apt-get upgrade -y
+
+source system-update.sh
+
+# sudo apt-get update && sudo apt-get upgrade -y
 
 dpkg-query --status dialog
 

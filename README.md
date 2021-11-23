@@ -15,9 +15,10 @@ Detta är en blandning av bash scripts som ska kan användas för smidigare inst
     - ls
 
 Följande kommer visas:
-install.sh
-README.md
-scripts
+
+* install.sh
+* README.md
+* scripts
 
 Scriptet install.sh är ej färdigt, använd ej detta!
 
@@ -26,18 +27,18 @@ README.md är denna filen, modifiera den ej.
 scripts är en mapp med olika bash scripts, följande fungerar och kan köras med nedanstående kommando:
 
 ### Uppdaterar systemet
-sudo sh scripts/system-update.sh
+    sudo sh scripts/system-update.sh
 ### Installerar apache
-sudo sh scripts/install-apache.sh
+    sudo sh scripts/install-apache.sh
 ### Installerar MariaDB
-sudo sh scripts/install-mariadb.sh
+    sudo sh scripts/install-mariadb.sh
 ### Installerar wordpress
-sudo sh scripts/install-wordpress.sh
+    sudo sh scripts/install-wordpress.sh
 ### Installerar dialog som kommer användas senare för att bygga ett ui.
-sudo sh scripts/install-dialog.sh
+    sudo sh scripts/install-dialog.sh
 ### Laddar ner uppdateringar för alla dessa scripts från github.
-sudo sh scripts/update-script.sh
+    sudo sh scripts/update-script.sh
 
 ## Dessa script är ej färdiga:
-ui.sh
-install-phpmyadmin.sh
+    ui.sh
+    install-phpmyadmin.sh

@@ -16,4 +16,5 @@ source scripts/install-wordpress.sh
 
 
 echo Kopiera IP-adressen och öppna den i webbläsaren på din dator.
+
 hostname -I

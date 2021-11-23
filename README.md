@@ -35,7 +35,7 @@ sudo sh scripts/install-mariadb.sh
 sudo sh scripts/install-wordpress.sh
 ### Installerar dialog som kommer användas senare för att bygga ett ui.
 sudo sh scripts/install-dialog.sh
-### Laddar ner uppdateringar för alla scripts från github.
+### Laddar ner uppdateringar för alla dessa scripts från github.
 sudo sh scripts/update-script.sh
 
 ## Dessa script är ej färdiga:

@@ -1,6 +1,10 @@
 # Rpi-scripts - WARNING WORK IN PROGRESS!!
 Detta är en blandning av bash scripts som ska kan användas för smidigare installationer.
 
+Baserat på följande sidor:
+https://behind-the-scenes.net/installing-wordpress-on-a-raspberry-pi-raspbian/ 
+
+https://pimylifeup.com/raspberry-pi-phpmyadmin/
 
 ## Instruktioner
 

@@ -1,5 +1,5 @@
 # Rpi-scripts - WARNING WORK IN PROGRESS!!
-Detta är en blandning av bash scripts som ska kan användas för smidigare installationer.
+Detta är en blandning av bash scripts som ska kan användas för smidigare installationer. 
 
 Baserat på följande sidor:
 
@@ -9,7 +9,10 @@ https://pimylifeup.com/raspberry-pi-phpmyadmin/
 
 
 # OBS!!!
+Denna setup och scripts är endast för undervisning.
 Vissa script innehåller variabler och måste köras som scripts!!
+Databas script är ej testat
+
 
 ## Instruktioner
 

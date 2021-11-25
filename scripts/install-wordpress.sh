@@ -17,4 +17,4 @@ sudo rm -rf wordpress latest.tar.gz
 source set-permissions.sh
 
 # Lägger till så uppdateringar fungerar i wordpress.
-echo 'define( 'FS_METHOD', 'direct' );' | sudo tee -a /var/www/html/wp-config.php
+echo "define( 'FS_METHOD', 'direct' );" | sudo tee -a /var/www/html/wp-config.php

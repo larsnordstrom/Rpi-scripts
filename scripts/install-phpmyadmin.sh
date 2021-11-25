@@ -12,6 +12,7 @@ sudo apt install phpmyadmin -y
 # Följande måste ni kopiera och sedan klistra in i putty. (kopiera EJ #)
 sudo mysql --user=$DB_USER --password=$DB_PASSWORD << EOF
 GRANT ALL PRIVILEGES ON *.* TO 'pi'@'localhost' IDENTIFIED BY 'raspberry' WITH GRANT OPTION;
+exit
 EOF
 
 # Lägger till längst ner i apache2.conf

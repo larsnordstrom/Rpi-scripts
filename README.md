@@ -2,9 +2,14 @@
 Detta är en blandning av bash scripts som ska kan användas för smidigare installationer.
 
 Baserat på följande sidor:
+
 https://behind-the-scenes.net/installing-wordpress-on-a-raspberry-pi-raspbian/ 
 
 https://pimylifeup.com/raspberry-pi-phpmyadmin/
+
+
+# OBS!!!
+Vissa script innehåller variabler och måste köras som scripts!!
 
 ## Instruktioner
 
@@ -46,3 +51,4 @@ scripts är en mapp med olika bash scripts, följande fungerar och kan köras me
 ## Dessa script är ej färdiga:
     ui.sh
     install-phpmyadmin.sh
+    setup-wp-db.sh

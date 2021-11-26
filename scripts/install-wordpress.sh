@@ -26,10 +26,10 @@ sudo chmod -R 775 $HTML_DIR
 
 
 # Kollar om define( 'FS_METHOD', 'direct' ); redan finns i wp-config.php
-if grep -q "define( 'FS_METHOD', 'direct' );" $WP_CONFIG; then
-    echo "Hello world...."
-else
+#if grep -q "define( 'FS_METHOD', 'direct' );" $WP_CONFIG; then
+ #   echo "Hello world...."
+#else
     # Lägger till så uppdateringar fungerar i wordpress.
-    echo "define( 'FS_METHOD', 'direct' );" | sudo tee -a $WP_CONFIG
-fi
+   # echo "define( 'FS_METHOD', 'direct' );" | sudo tee -a $WP_CONFIG
+#fi
 
